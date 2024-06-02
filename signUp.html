@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link href="signUp.html">
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="signUp" class="m-auto p-5 my-5">
+        <h1 class="text-center mb-4">Smart Login System</h1>
+
+        <div class="input-group mb-3">
+            <input id="userName" type="name" class="form-control bg-transparent" placeholder="Enter your name"
+                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <input id="userEmail" type="email" class="form-control bg-transparent" placeholder="Enter your email"
+                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <input id="userPassword" type="password" class="form-control bg-transparent" placeholder="Enter password"
+                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" data-bs-toggle="popover"
+                data-bs-placement="bottom" data-bs-content="Use passwords and passkeys saved on your Google Account">
+        </div>
+
+        <p id="requiredMsg" class="text-center text-danger d-none">All inputs are required</p>
+        <p id="SuccessMsg" class="text-center text-success d-none">Success</p>
+        <p id="existMsg" class="text-center text-danger d-none">email already exists</p>
+        <button id="signUpBtn" class="btn my-3">Sign Up</button>
+
+        <p class="text-center text-white">You have an account? <a href="index.html">Sign In</a></p>
+
+    </div>
+
+
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- My JS -->
+    <script src="js/signUp.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <div id="loginSystem" class="m-auto p-5 my-5">
+        <h1 class="text-center mb-4">Smart Login System</h1>
+
+        <div class="input-group mb-3">
+            <input id="userEmail" type="email" class="form-control bg-transparent" placeholder="Enter your email"
+                aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <input id="userPassword" type="password" class="form-control bg-transparent"
+                placeholder="Enter your password" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" data-bs-toggle="popover" data-bs-placement="bottom"
+                data-bs-content="Use passwords and passkeys saved on your Google Account">
+        </div>
+
+        <p id="requiredMsg" class="text-center text-danger d-none">All inputs are required</p>
+        <p id="incorrectMsg" class="text-center text-danger d-none">Incorrect Email or Password</p>
+
+        <button id="loginBtn" type="button" class="btn my-3">Login</button>
+
+        <p class="text-center text-white">Don't have an account? <a href="signUp.html">Sign Up</a></p>
+
+    </div>
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- My JS -->
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
